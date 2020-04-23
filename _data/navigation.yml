@@ -47,4 +47,21 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    url: /about.html
+    url: https://xingyuchen.me
+
+LLVMCollection:
+  - title: 前言
+    url: /LLVM/
+    children:
+      - title: "类型"
+        url: /LLVM/
+      - title: "Page2"
+        url: /notes/SampleCollection2/
+  - title: 配置LLVM
+  - title: 数据类型
+  - title: 函数
+  - title: 逻辑控制
+  - title: 类与结构体
+  - title: 系统函数
+  - title: 编译
+

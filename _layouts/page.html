@@ -41,10 +41,10 @@ layout: base
     </div>
 
     <div class="grid page__grid">
-
-      <div class="page__sidebar d-print-none">
+   
+      <!-- <div class="page__sidebar d-print-none">
         {%- include sidebar/toc.html -%}
-      </div>
+      </div> -->
 
 {%- else -%}
 <div class="layout--page js-page-root">
@@ -215,6 +215,12 @@ layout: base
                     {%- endif -%}
                 </article>
                 {%- include main/bottom/custom.html -%}
+              </div>
+
+              <div class="col-aside js-col-aside  mr-5 d-print-none">
+                <aside class="page__aside js-page-aside">
+                {%- include sidebar/toc.html -%}
+              </aside>
               </div>
             </div>
 
